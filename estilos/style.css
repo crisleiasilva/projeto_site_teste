@@ -9,10 +9,54 @@ body {
 
 main {
   background-color: white;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 50%;
   width: 500px;
-  margin:40px;
-  padding: 10px;
-  
+ /* margin:40px;*/
+  padding: 10px; 
+  border-radius: 3px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.295);
  
+}
+
+h1 {
+  font-size: 2em ;
+  color: purple;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.493);
+  
+}
+
+h2 {
+  font-size: 1.5em;
+  color:rgb(130, 130, 209);
+
+}
+
+p {
+  line-height: 1.8em;
+}
+
+p .paragrafo{
+  color:rgb(42, 42, 211);
+}
+
+a {
+  text-decoration:none ;
+  font-weight: bold;
+  color: rgb(58,0,112);
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(15, 15, 194);
+}
+
+iframe {
+  width: 500px;
+}
+
+img.lado {
+  float: right;
 }
